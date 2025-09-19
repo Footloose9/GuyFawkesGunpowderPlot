@@ -1,5 +1,5 @@
-# xrpledger.toml for XRPL token verification
-# Hosted at https://footloose9.github.io/.well-known/xrpledger.toml
+# xrp-ledger.toml for XRPL token verification
+# Hosted at https://footloose9.github.io/.well-known/xrp-ledger.toml
 
 [METADATA]
 modified = 2025-09-19
