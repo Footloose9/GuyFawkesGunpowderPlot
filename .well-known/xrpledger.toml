@@ -1,17 +1,18 @@
 # xrpledger.toml for XRPL token verification
-# Hosted at https://YOURUSERNAME.github.io/.well-known/xrpledger.toml
+# Hosted at https://footloose9.github.io/.well-known/xrpledger.toml
 
 [METADATA]
 modified = 2025-09-19
 issuer = "rDfAMLUg5HxxwGHgsjzguMtawiZRTwGGX6"
 
 [[CURRENCIES]]
-code = "GunpowderPlot"            # Your token name (longer than 3 chars, so hex under the hood)
+# XRPL requires hex for names longer than 3 chars
+code = "47756e706f77646572506c6f7400000000000000"
 issuer = "rDfAMLUg5HxxwGHgsjzguMtawiZRTwGGX6"
 display_decimals = 2
 name = "GunpowderPlot"
 desc = "GunpowderPlot — an XRPL-issued token for demonstration and education."
-icon = "https://Footloose9.github.io/logo.png"
+icon = "https://footloose9.github.io/logo.png"
 
 [[ACCOUNTS]]
 address = "rDfAMLUg5HxxwGHgsjzguMtawiZRTwGGX6"
